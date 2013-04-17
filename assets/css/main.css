@@ -183,7 +183,9 @@ h2 {
 
 }
 
-@media screen and (max-width: 440px) {
+/* mobile style one */
+
+@media screen and (max-width: 440px), only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 
 .wrapper {
 	width:=460px;
@@ -210,8 +212,5 @@ h2 {
 	font-size: 30px;
 }
 
-
-	}
-
-
+	} 
 
