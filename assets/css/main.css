@@ -202,6 +202,14 @@ h2 {
 	height: 200px;
 }
 
+#footerlinkage li {
+	display: block;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 30px;
+}
+
 	}
 
 
