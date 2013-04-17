@@ -189,8 +189,13 @@ h2 {
 	width:=460px;
 }
 
+#navigate {
+	text-align: center;
+}
+
 #navigate li {
 	display: block;
+	text-align: center;
 }
 
 	}
