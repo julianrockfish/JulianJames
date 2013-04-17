@@ -1,0 +1,185 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* End Meyer Reset
+*/
+
+/* Julian Styles 
+*/
+
+html {
+	background-color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	background-color: #FF6840;
+}
+
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	text-shadow: 0.05em 0.01em #FF9073;
+}
+
+h1 {
+	font-size: 78px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 15px;
+	font-size: 60px;
+}
+
+.heads {
+	height: 80px;
+	background-color: #FF6840;
+	color: #E8E5D5;
+}
+
+.topsection {
+	background-image: url(../images/shrubbish.png);
+	background-repeat: repeat-x;
+	height: 380px;
+	margin: auto;
+	color: black;
+	text-align: center;
+
+}
+
+#navigate {
+	margin-top: 10px;
+	text-align: right;
+	padding-top: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #E8E5D5;
+}
+
+
+#navigate li {
+	display: inline;
+	margin: 13px;
+	font-size: 40px;
+
+}
+
+#navigate li a {
+	color: #E8E5D5;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+#navigate li a:hover {
+    color: #BF4E30;
+
+}
+
+
+.middlesection {
+	background-color: black;
+	height: 180px;
+	margin: auto;
+	color: #37DA7E;
+	text-align: center;
+	padding-top: 5px
+
+}
+
+.thirdsection {
+	height: 30px;
+	background-color: #22884F;
+	color: #FF9073;
+	text-align: center;
+	text-shadow: 0.1em 0.1em black;
+}
+
+.thirdsection p {
+	padding-top: 5px;
+}
+
+.pagefooter {
+     height: 120px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #FF6840;
+	 color: #E8E5D5;
+}
+
+#footerlinkage {
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+#footerlinkage ul {
+	margin-left: auto;
+}
+
+#footerlinkage li {
+	display: inline;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 30px;
+}
+
+#footerlinkage li a {
+	color: #E8E5D5;
+	text-decoration: none;
+}
+
+#footerlinkage li a:hover {
+    color: #BF4E30;
+
+}
+
