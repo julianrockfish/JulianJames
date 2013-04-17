@@ -189,6 +189,10 @@ h2 {
 	width:=460px;
 }
 
+.navigate li {
+	display: block;
+}
+
 	}
 
 
