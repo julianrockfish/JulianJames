@@ -183,3 +183,13 @@ h2 {
 
 }
 
+@media only screen and (max-device-width: 480px) {
+
+.wrapper {
+	width:=460px;
+}
+
+	}
+
+
+
