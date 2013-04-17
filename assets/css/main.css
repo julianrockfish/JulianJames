@@ -183,7 +183,7 @@ h2 {
 
 }
 
-@media only screen and (max-device-width: 480px) {
+@media all and (max-width: 400px) {
 
 .wrapper {
 	width:=460px;
