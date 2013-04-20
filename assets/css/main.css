@@ -24,7 +24,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/************** HTML5 display-role reset for older browsers ****************/
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -49,11 +50,10 @@ table {
 }
 
 
-/* End Meyer Reset
-*/
+/************************* End Meyer Reset *********************/
 
 
-/* Grid setup */
+/************************** Grid setup *************************/
 
 .container {
 
@@ -69,46 +69,12 @@ div .colbox {
 	padding: 10px;
 	float: left;
 	text-align: center;
-
 }
 
-/* Julian Styles 
-*/
-
-html {
-	background-color: black;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 18px;
-	background-color: #00B454;
-}
-
-a {
-	color: #FF3900;
-}
-
-
-h1 {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 30px;
-	text-shadow: 0.05em 0.01em #FF9073;
-}
-
-h1 {
-	font-size: 78px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
-
-h2 {
-	font-family: 'Fjalla One', sans-serif;
-	padding-top: 15px;
-	font-size: 60px;
-}
-
-h3 {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 25px;
-	font-weight: 700;
+.dates {
+  color: #4DA166;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .heads {
@@ -120,7 +86,7 @@ h3 {
 .topsection {
 	background: #E8E5D5;
 	background-repeat: repeat-x;
-	height: 380px;
+	height: 400px;
 	margin: auto;
 	color: black;
 	text-align: center;
@@ -171,10 +137,9 @@ h3 {
 
 .thirdsection {
 	height: 30px;
-	background-color: #22884F;
-	color: #FF9073;
+	background-color: #00B454;
+	color: black;
 	text-align: center;
-	text-shadow: 0.1em 0.1em black;
 }
 
 .thirdsection p {
@@ -216,6 +181,83 @@ h3 {
     color: #BF4E30;
 
 }
+
+.content {
+  background-color: #E8E5D5;
+}
+
+#avatar {
+	border-radius: 50%;
+  float: left;
+	margin: 28px 10px 0px 0px;
+}
+
+#avatar:hover {
+          box-shadow: 0px 0px 12px 12px #D2E6BC;
+}
+
+#description {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+/**************** Type Styles *********************/
+
+html {
+	background-color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 650;
+	background-color: #00B454;
+}
+
+p {
+	padding-top: 7px;
+}
+
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	text-shadow: 0.05em 0.01em #FF9073;
+	font-size: 78px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 15px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: black;
+}
+
+h6 {
+  font-size: 17px;
+  font-weight:700;
+  font-variant: small-caps;
+}
+
+
+li {
+  list-style: circle;
+  list-style-position:inside;
+}
+
+a {
+	color: #FF3900;
+}
+
 
 /* mobile style one */
 
