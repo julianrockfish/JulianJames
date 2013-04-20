@@ -101,6 +101,12 @@ h2 {
 	font-size: 60px;
 }
 
+h3 {
+	font-size: 25px;
+	font-weight: 700;
+	text-shadow: 0.05em 0.01em #FF9073;
+}
+
 .heads {
 	height: 80px;
 	background-color: #FF6B40;
