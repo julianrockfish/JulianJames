@@ -82,6 +82,10 @@ html {
 	background-color: #00B454;
 }
 
+a {
+	color: #FF3900;
+}
+
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
@@ -109,8 +113,8 @@ h3 {
 
 .heads {
 	height: 80px;
-	background-color: #00B454;
-	color: #E8E5D5;
+	background-color: #FF6B40;
+	color: #FF6B40;
 }
 
 .topsection {
@@ -129,7 +133,6 @@ h3 {
 }
 
 #navigate {
-	margin-top: 10px;
 	text-align: right;
 	padding-top: 25px;
 	font-family: 'Fjalla One', sans-serif;
@@ -139,7 +142,7 @@ h3 {
 
 #navigate li {
 	display: inline;
-	margin: 13px;
+	padding: 13px;
 	font-size: 40px;
 
 }
