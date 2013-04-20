@@ -52,6 +52,16 @@ table {
 /* End Meyer Reset
 */
 
+
+/* Grid setup */
+
+.container {
+
+width: 960px;
+margin: 0 auto;
+
+}
+
 /* Julian Styles 
 */
 
