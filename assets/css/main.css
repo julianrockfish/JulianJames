@@ -88,7 +88,7 @@ h2 {
 }
 
 .topsection {
-	background-image: url(../images/shrubbish.png);
+	background: #37DA7E;
 	background-repeat: repeat-x;
 	height: 380px;
 	margin: auto;
