@@ -86,7 +86,7 @@ div .colbox {
 .topsection {
 	background: #E8E5D5;
 	background-repeat: repeat-x;
-	height: 400px;
+	/*height: 400px;*/
 	margin: auto;
 	color: black;
 	text-align: center;
@@ -127,7 +127,7 @@ div .colbox {
 
 .middlesection {
 	background-color: black;
-	height: 180px;
+	/*height: 180px;*/
 	margin: auto;
 	color: #37DA7E;
 	text-align: center;
@@ -200,6 +200,14 @@ div .colbox {
   font-family: 'Josefin Sans', sans-serif;
   text-align: right;
   font-weight: bold;
+}
+
+/**** Clear fix ****/ 
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
