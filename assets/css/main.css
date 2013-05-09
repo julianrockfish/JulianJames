@@ -66,7 +66,7 @@ div .colbox {
 	width: 200px;
 	color: black;
 	margin: 10px;
-	padding: 10px;
+	padding: 10px 10px 80px 10px;
 	float: left;
 	text-align: center;
 }
@@ -79,17 +79,20 @@ div .colbox {
 
 .heads {
 	height: 80px;
+	width: 100%;
 	background-color: #FF6B40;
 	color: #FF6B40;
+	position: fixed;
+	top: 0;
 }
 
 .topsection {
 	background: #E8E5D5;
 	background-repeat: repeat-x;
-	/*height: 400px;*/
 	margin: auto;
 	color: black;
 	text-align: center;
+	padding-top: 80px;
 
 }
 
@@ -131,7 +134,7 @@ div .colbox {
 	margin: auto;
 	color: #37DA7E;
 	text-align: center;
-	padding-top: 5px
+	padding: 5px 0px 40px 0px;
 
 }
 
@@ -184,6 +187,7 @@ div .colbox {
 
 .content {
   background-color: #E8E5D5;
+  margin-top: 80px;
 }
 
 #avatar {
@@ -268,7 +272,7 @@ a {
 
 
 /* mobile style one */
-
+/*
 @media screen and (max-width: 440px), only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 
 .wrapper {
@@ -304,3 +308,4 @@ a {
 
 	} 
 
+*/
