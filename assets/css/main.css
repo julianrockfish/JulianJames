@@ -192,17 +192,18 @@ div .colbox {
 
 #avatar {
 	border-radius: 50%;
-  float: left;
-	margin: 28px 10px 0px 0px;
+    position: fixed;
+    margin: 25px;
+
 }
 
 #avatar:hover {
-          box-shadow: 0px 0px 12px 12px #D2E6BC;
+          box-shadow: 0px 0px 12px 5px #D2E6BC;
 }
 
 #description {
   font-family: 'Josefin Sans', sans-serif;
-  text-align: right;
+  text-align: center;
   font-weight: bold;
 }
 
