@@ -154,7 +154,7 @@ div .colbox {
      margin-left: auto;
      margin-right: auto;
      background-color: #FF6B40;
-	 color: #E8E5D5;
+	   color: #E8E5D5;
 }
 
 #footerlinkage {
@@ -188,6 +188,7 @@ div .colbox {
 .content {
   background-color: #E8E5D5;
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 #avatar {
@@ -209,10 +210,16 @@ div .colbox {
 
 /**** Clear fix ****/ 
 
+.group:before,
 .group:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 
@@ -222,7 +229,7 @@ html {
 	background-color: black;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
-	font-weight: 650;
+	font-weight: bold;
 	background-color: #00B454;
 }
 
@@ -253,12 +260,17 @@ h3 {
 	font-size: 25px;
 	font-weight: 700;
 	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px black;
+	text-shadow: 0.05em 0.01em #00B454;
 }
 
 h6 {
   font-size: 17px;
   font-weight:700;
   font-variant: small-caps;
+  font-weight: bold;
 }
 
 
@@ -271,6 +283,18 @@ a {
 	color: #FF3900;
 }
 
+p.entry {
+	padding-bottom: 10px;
+}
+
+
+blockquote {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: georgia, serif;
+	text-shadow: 0em 0.01em gray;
+}
 
 /* mobile style one */
 /*
@@ -310,3 +334,100 @@ a {
 	} 
 
 */
+
+
+
+/* CALENDAR CSS */
+
+/*body {
+	font-family: helvetica, sans-serif;
+	color: #848484;
+	background-color: #fff9ad;
+}*/
+
+.cal_container {
+	width: 280px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 1px 1px 3px #888888;
+}
+
+.week {
+	background-color: #f8f8f8;
+}
+
+#calhead {
+	background: linear-gradient(#45b5ff, #1a8cd8);
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 35px;
+	border-radius: 4px;
+	letter-spacing: 2px;
+}
+
+p.toggle {
+	display: inline;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+
+#calendarmonth {
+	font-family: helvetica, sans-serif;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	display: inline;
+	padding: 0 20px 0 20px;
+	margin: 0 20px 0 20px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.sevenday li {
+
+	float: left; 
+	width: 38px;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #fefefe;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 0px;
+	padding-right: 1px;
+	border-left: 1px solid #cccccc;
+	color: #848484;
+
+}
+
+
+.sevenday li:hover {
+
+	float: left; 
+	width: 38px;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #45b5ff;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 0px;
+	padding-right: 1px;
+	border-left: 1px solid #cccccc;
+	color: #fefefe;
+
+}
+
+li .july {
+	color: #cccccc;
+}
+
+.corner {
+	border-radius: 2px;
+}
+
+
