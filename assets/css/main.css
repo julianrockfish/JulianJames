@@ -225,7 +225,7 @@ div .colbox {
 
 /**************** Typography Styles *********************/
 
-html {
+body {
 	background-color: black;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
@@ -235,6 +235,8 @@ html {
 
 p {
 	padding-top: 7px;
+	font-size: 18px;
+	line-height: 27px;
 }
 
 
@@ -289,6 +291,7 @@ a {
 
 p.entry {
 	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 
@@ -426,8 +429,9 @@ p.toggle {
 
 }
 
-li .july {
+li.july {
 	color: #cccccc;
+	background-color:#EBEDED;
 }
 
 .corner {
