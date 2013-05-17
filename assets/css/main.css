@@ -80,7 +80,7 @@ div .colbox {
 .heads {
 	height: 80px;
 	width: 100%;
-	background-color: #FF6B40;
+	background: #FF6B40;
 	color: #FF6B40;
 	position: fixed;
 	top: 0;
