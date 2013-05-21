@@ -122,6 +122,10 @@ div .colbox {
 	text-decoration: none;
 }
 
+li a {
+		text-shadow: 1px 1px #45b5ff;
+}
+
 #navigate li a:hover {
     color: #BF4E30;
 
@@ -203,7 +207,7 @@ div .colbox {
 }
 
 #description {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-weight: bold;
 }
@@ -228,6 +232,7 @@ div .colbox {
 body {
 	background-color: black;
 	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	background-color: #00B454;
@@ -235,14 +240,14 @@ body {
 
 p {
 	padding-top: 7px;
-	font-size: 18px;
-	line-height: 27px;
+	font-size: 15px;
+	line-height: 23px;
+		font-family: 'Open Sans', sans-serif;
 }
 
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 30px;
 	text-shadow: 0.05em 0.01em #FF9073;
 	font-size: 50px;
 	padding-bottom: 15px;
@@ -285,7 +290,7 @@ a {
 	color: #1a8cd8;
 	text-decoration: none;
 	font-weight: 900;
-	text-shadow: 1px 1px #45b5ff;
+	text-shadow: .4px .4px #45b5ff;
 
 }
 
@@ -302,6 +307,13 @@ blockquote {
 	font-family: georgia, serif;
 	text-shadow: 0em 0.01em gray;
 }
+
+ul.details li {
+	font-size: 15px;
+	line-height: 23px;
+}
+
+
 
 /* mobile style one */
 /*
