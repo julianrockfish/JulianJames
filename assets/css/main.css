@@ -242,7 +242,7 @@ p {
 	padding-top: 7px;
 	font-size: 15px;
 	line-height: 23px;
-		font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -449,5 +449,29 @@ li.july {
 .corner {
 	border-radius: 2px;
 }
+
+/* SEAL EXPERIMENT */
+
+.seal {
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	color:#fff;
+	background:#000;
+	margin: 10px auto;
+}
+
+p#monogram {
+	font-family: 'Quando', serif;
+	font-size: 70px;
+	text-align:center;
+	line-height: 180px;
+	background: url('../images/stripe.png');
+	text-shadow: 5px 2px .2px rgb(79, 255, 134);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+
 
 
