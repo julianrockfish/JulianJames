@@ -235,7 +235,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	background-color: #00B454;
+	/*background-color: #00B454;*/
+	background-color: #FF6B40;
 }
 
 p {
