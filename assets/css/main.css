@@ -453,8 +453,8 @@ li.july {
 /* SEAL EXPERIMENT */
 
 .seal {
-	width:200px;
-	height:200px;
+	width:300px;
+	height:300px;
 	border-radius:50%;
 	color:#fff;
 	background:#000;
@@ -463,11 +463,11 @@ li.july {
 
 p#monogram {
 	font-family: 'Quando', serif;
-	font-size: 70px;
+	font-size: 120px;
 	text-align:center;
-	line-height: 180px;
+	line-height: 260px;
 	background: url('../images/stripe.png');
-	text-shadow: 5px 2px .2px rgb(79, 255, 134);
+	text-shadow: 8px 6px .2px rgb(79, 255, 134), 5px 3px .2px rgb(0, 123, 167);;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 }
