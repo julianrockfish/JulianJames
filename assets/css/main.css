@@ -471,7 +471,19 @@ p#monogram {
 	text-shadow: 8px 6px .2px rgb(79, 255, 134), 5px 3px .2px rgb(0, 123, 167);;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
+	/*letter-spacing: -4px;*/
 }
+
+#letter_r {
+	position: relative;
+	left: -9px;
+	background: url('../images/stripe.png');
+	text-shadow: 8px 6px .2px rgb(79, 255, 134), 5px 3px .2px rgb(0, 123, 167);;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
 
 
 
