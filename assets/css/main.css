@@ -24,7 +24,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/************** HTML5 display-role reset for older browsers ****************/
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -49,57 +50,59 @@ table {
 }
 
 
-/* End Meyer Reset
-*/
+/************************* End Meyer Reset *********************/
 
-/* Julian Styles 
-*/
 
-html {
-	background-color: black;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 18px;
-	background-color: #FF6840;
+/************************** Grid setup *************************/
+
+.container {
+
+width: 960px;
+margin: 0 auto;
+
 }
 
-
-h1 {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 30px;
-	text-shadow: 0.05em 0.01em #FF9073;
+div .colbox {
+	width: 200px;
+	color: black;
+	margin: 10px;
+	padding: 10px 10px 80px 10px;
+	float: left;
+	text-align: center;
 }
 
-h1 {
-	font-size: 78px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
-
-h2 {
-	font-family: 'Fjalla One', sans-serif;
-	padding-top: 15px;
-	font-size: 60px;
+.dates {
+  color: #4DA166;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .heads {
 	height: 80px;
-	background-color: #FF6B40;
-	color: #E8E5D5;
+	width: 100%;
+	background: #FF6B40;
+	color: #FF6B40;
+	position: fixed;
+	top: 0;
 }
 
 .topsection {
-	background-image: url(../images/shrubbish.png);
+	background: #E8E5D5;
 	background-repeat: repeat-x;
-	height: 380px;
 	margin: auto;
 	color: black;
 	text-align: center;
+	padding-top: 80px;
+
+}
+
+.topsection img {
+	margin-top: 35px;
 
 }
 
 #navigate {
-	margin-top: 10px;
-	text-align: right;
+	text-align: center;
 	padding-top: 25px;
 	font-family: 'Fjalla One', sans-serif;
 	color: #E8E5D5;
@@ -108,7 +111,7 @@ h2 {
 
 #navigate li {
 	display: inline;
-	margin: 13px;
+	padding: 13px;
 	font-size: 40px;
 
 }
@@ -119,6 +122,10 @@ h2 {
 	text-decoration: none;
 }
 
+li a {
+		text-shadow: 1px 1px #45b5ff;
+}
+
 #navigate li a:hover {
     color: #BF4E30;
 
@@ -127,20 +134,19 @@ h2 {
 
 .middlesection {
 	background-color: black;
-	height: 180px;
+	/*height: 180px;*/
 	margin: auto;
 	color: #37DA7E;
 	text-align: center;
-	padding-top: 5px
+	padding: 5px 0px 40px 0px;
 
 }
 
 .thirdsection {
 	height: 30px;
-	background-color: #22884F;
-	color: #FF9073;
+	background-color: #00B454;
+	color: black;
 	text-align: center;
-	text-shadow: 0.1em 0.1em black;
 }
 
 .thirdsection p {
@@ -148,16 +154,16 @@ h2 {
 }
 
 .pagefooter {
-     height: 120px;
+     height: 400px;
      margin-left: auto;
      margin-right: auto;
      background-color: #FF6B40;
-	 color: #E8E5D5;
+	   color: #E8E5D5;
 }
 
 #footerlinkage {
 	text-align: center;
-	margin-top: 15px;
+	/*/margin-top: 15px;*/
 	padding-top: 15px;
 }
 
@@ -182,4 +188,303 @@ h2 {
     color: #BF4E30;
 
 }
+
+.content {
+  background-color: #E8E5D5;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#avatar {
+	border-radius: 50%;
+    position: fixed;
+    margin: 25px;
+
+}
+
+#avatar:hover {
+          box-shadow: 0px 0px 12px 5px #D2E6BC;
+}
+
+#description {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/**** Clear fix ****/ 
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/**************** Typography Styles *********************/
+
+body {
+	background-color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	/*background-color: #00B454;*/
+	background-color: #FF6B40;
+}
+
+p {
+	padding-top: 7px;
+	font-size: 15px;
+	line-height: 23px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: 0.05em 0.01em #FF9073;
+	font-size: 50px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 15px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px black;
+	text-shadow: 0.05em 0.01em #00B454;
+}
+
+h6 {
+  font-size: 17px;
+  font-weight:700;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+
+li {
+  list-style: circle;
+  list-style-position:inside;
+}
+
+a {
+	color: #1a8cd8;
+	text-decoration: none;
+	font-weight: 900;
+	text-shadow: .4px .4px #45b5ff;
+
+}
+
+p.entry {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+blockquote {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	font-family: georgia, serif;
+	text-shadow: 0em 0.01em gray;
+}
+
+ul.details li {
+	font-size: 15px;
+	line-height: 23px;
+}
+
+
+
+/* mobile style one */
+/*
+@media screen and (max-width: 440px), only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+
+.wrapper {
+	width:=400px;
+}
+
+#navigate {
+	text-align: center;
+}
+
+
+#navigate li {
+	display: block;
+	text-align: center;
+}
+
+.heads {
+	height: 200px;
+}
+
+#footerlinkage li {
+	display: block;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 30px;
+}
+
+.topsection img {
+	margin-top: 4px;
+
+}
+
+	} 
+
+*/
+
+
+
+/* CALENDAR CSS */
+
+/*body {
+	font-family: helvetica, sans-serif;
+	color: #848484;
+	background-color: #fff9ad;
+}*/
+
+.cal_container {
+	width: 280px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 1px 1px 3px #888888;
+}
+
+.week {
+	background-color: #f8f8f8;
+}
+
+#calhead {
+	background: linear-gradient(#45b5ff, #1a8cd8);
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 35px;
+	border-radius: 4px;
+	letter-spacing: 2px;
+}
+
+p.toggle {
+	display: inline;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+
+#calendarmonth {
+	font-family: helvetica, sans-serif;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	display: inline;
+	padding: 0 20px 0 20px;
+	margin: 0 20px 0 20px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.sevenday li {
+
+	float: left; 
+	width: 38px;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #fefefe;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 0px;
+	padding-right: 1px;
+	border-left: 1px solid #cccccc;
+	color: #848484;
+
+}
+
+
+.sevenday li:hover {
+
+	float: left; 
+	width: 38px;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #45b5ff;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 0px;
+	padding-right: 1px;
+	border-left: 1px solid #cccccc;
+	color: #fefefe;
+
+}
+
+li.july {
+	color: #cccccc;
+	background-color:#EBEDED;
+}
+
+.corner {
+	border-radius: 2px;
+}
+
+/* SEAL EXPERIMENT */
+
+.seal {
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	color:#fff;
+	background:#000;
+	margin: 10px auto;
+}
+
+p#monogram {
+	font-family: 'Quando', serif;
+	font-size: 120px;
+	text-align:center;
+	line-height: 260px;
+	background: url('../images/stripe.png');
+	text-shadow: 8px 6px .2px rgb(79, 255, 134), 5px 3px .2px rgb(0, 123, 167);;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	/*letter-spacing: -4px;*/
+}
+
+#letter_r {
+	position: relative;
+	left: -9px;
+	background: url('../images/stripe.png');
+	text-shadow: 8px 6px .2px rgb(79, 255, 134), 5px 3px .2px rgb(0, 123, 167);;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+}
+
+
+
+
 
